@@ -1,6 +1,11 @@
 
+<form id="filter">
+  <label>Filter players by name, club or country:</label>
+  <input type="text" [(ngModel)]="term" [ngModelOptions]="{standalone: true}"/>
+</form>
+
 <ul class="players">
-<li *ngFor="let player of players">
+<li *ngFor="let player of players | filter:term ">
   <p>{{player.name | uppercase }}</p>
   <p>{{player.goals}} goals</p>
   <p>{{player.team}}</p>
