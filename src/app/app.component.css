@@ -1,0 +1,20 @@
+
+
+#goldenBootImage {
+  border-radius: 4%;
+  height: 160px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: normal;
+  font-family: sans-serif;
+  padding-top: 1em;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: normal;
+  font-family: sans-serif;
+}
